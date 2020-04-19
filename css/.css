@@ -1,0 +1,47 @@
+.home{
+  background-image: url(../img/banner1.jpg);
+  animation-name: example;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.navbar{
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+ul {
+  font-family:  sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  font-size: 20px;
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  color: #3385ff;
+}
+@keyframes example {
+  0%   {background-image: url(../img/banner1.jpg);}
+  50%  {background-image: url(../img/banner2.jpg);}
+  100%  {background-image: url(../img/banner3.jpg);}
+}
+.news{
+  padding-top: 100px;
+  color: white;
+  margin: auto;
+  width: 70%;
+}
+.contact{
+background-image: url(../img/contact.jpg)
+}
