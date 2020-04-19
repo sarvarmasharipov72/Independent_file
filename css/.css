@@ -43,5 +43,72 @@ li a:hover:not(.active) {
   width: 70%;
 }
 .contact{
-background-image: url(../img/contact.jpg)
+  font: 20px Sans-serif;
+background-image: url(../img/contact.jpg);
+color: white;
+}
+.contact1{
+  margin: auto;
+  width: 80%;
+}
+.contact2{
+  padding:40px;
+  text-align: center;
+}
+.h2_contact{
+  line-height: 100px;
+  font-size: 30px;
+}
+.connect1{
+  width: 40%;
+  float: left;
+}
+.connect2{
+  width: 60%;
+  float: right;
+}
+.connect{
+  margin: auto;
+  width: 80%;
+}
+.input{
+  margin: 0px;
+  padding: 5px;
+}
+input{
+  color: white;
+}
+#input1{
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  border: 3px solid white;
+  background: transparent;
+}
+#textarea{
+  width: 100%;
+}
+#input2{
+  background: transparent;
+  padding: 2% 3%;
+  margin-left: 5px;
+}
+::placeholder{
+  font-size: 15px;
+  color: white;
+}
+.addres{
+  margin-bottom: 1px;
+}
+.addres{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  height: 15%;
+  width: 100%;
+  /*background: #0d0d0d;*/
+  text-align: center;
 }
